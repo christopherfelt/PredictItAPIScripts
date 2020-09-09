@@ -37,4 +37,6 @@ class PredictIt {
   }
 }
 
+// need to add a method that gets market by number of days remaining
+
 export default PredictIt;
