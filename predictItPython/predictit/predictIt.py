@@ -29,4 +29,5 @@ class PredictIt:
             result.append(self.markets[i])
         return result
 
-    
+    def get_market_by_id(self, id):
+        return [market for market in self.markets if market['id']==id]
