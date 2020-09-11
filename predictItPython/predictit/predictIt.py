@@ -31,3 +31,12 @@ class PredictIt:
 
     def get_market_by_id(self, id):
         return [market for market in self.markets if market['id']==id]
+
+    def get_market_ids(self):
+        return self.markets.map(lambda x: x.id)
+
+    def get_market_contracts_by_id(self, id):
+        market = self.get_market_by_id(id)
+        return market[0]['contracts']
+
+    # def get_

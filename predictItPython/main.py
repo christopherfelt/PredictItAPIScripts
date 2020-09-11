@@ -17,4 +17,7 @@ p = PredictIt(market_data)
 
 # print(p.get_markets_by_keyword('party'))
 # print(p.get_first_markets(1)[0]['id'])
-pprint.pprint(p.get_market_by_id(2721)[0]['contracts'])
+pprint.pprint(p.get_market_by_id(5545)[0]['contracts'])
+
+
+
